@@ -6,14 +6,16 @@ import ChatScreen from './src/screens/ChatScreen';
 import FollowScreen from './src/screens/FollowScreen';
 import MyStack from './src/navigation/stack';
 import { Post } from './src/screens/Post';
+import { Talent } from './src/screens/Talent';
 
 const app = (props) => {
   return (
     // <Gridscreen />
+    <Talent />
     // <PostScreen />
     // <ChatScreen />
     // <FollowScreen />
-    <Post />
+    // <Post />
 
     // <MyStack  {...props} />
 
